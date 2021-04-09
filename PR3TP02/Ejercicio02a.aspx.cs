@@ -38,7 +38,7 @@ namespace WebApplication1
 
             if(txtbox_Nombre.Text == "")
             {
-                lblErrorNombre.Text = "Ingrese un apellido";
+                lblErrorNombre.Text = "Ingrese un nombre";
                 check = false;
             }
             
@@ -51,8 +51,7 @@ namespace WebApplication1
             {
                 Server.Transfer("Ejercicio02b.aspx"); 
             }
-     
-           
+
         }
     }
 }

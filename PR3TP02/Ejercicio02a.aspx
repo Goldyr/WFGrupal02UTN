@@ -12,12 +12,13 @@
             margin-left: 0px;
         }
     </style>
+	<link href="Ejercicio02b.css" rel="stylesheet" />
 </head>
 <body>
      <header>
         <h1>Ejercicio 02 / 05</h1>
     </header>
-    <form id="form1" runat="server">
+    <form id="form1" runat="server" class="centrado">
             <div style="height: 130px">
                 Nombre:&nbsp;&nbsp;&nbsp;
                 <asp:TextBox ID="txtbox_Nombre" runat="server"></asp:TextBox>
@@ -42,7 +43,7 @@
                 Temas:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:Label ID="lblErrorTemas" runat="server"></asp:Label>
                 <br />
-                <asp:CheckBoxList ID="checkbox_Temas" runat="server" Height="87px">
+                <asp:CheckBoxList ID="checkbox_Temas" runat="server" Height="87px" CssClass="centrado">
                     <asp:ListItem Value="0">Ciencias</asp:ListItem>
                     <asp:ListItem Value="1">Literatura</asp:ListItem>
                     <asp:ListItem Value="2">Historia</asp:ListItem>

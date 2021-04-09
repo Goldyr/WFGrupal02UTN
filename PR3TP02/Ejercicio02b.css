@@ -1,9 +1,19 @@
 ﻿body {
+
 }
 
-.centrado
-{
-    display:flex;
+.centrado {
+    display: flex;
     justify-content: center;
     align-content: center;
+}
+.centerForm {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#btn_Resumen {
+    float: right;
 }

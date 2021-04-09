@@ -7,11 +7,11 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace WebApplication1
+namespace PR3TP02
 {
 
 
-	public partial class ej2b
+	public partial class WebForm2
 	{
 
 		/// <summary>
@@ -24,39 +24,39 @@ namespace WebApplication1
 		protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
 		/// <summary>
-		/// Control lbl_Nombre.
+		/// Control Lkb_rojo.
 		/// </summary>
 		/// <remarks>
 		/// Campo generado automáticamente.
 		/// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.Label lbl_Nombre;
+		protected global::System.Web.UI.WebControls.LinkButton Lkb_rojo;
 
 		/// <summary>
-		/// Control lbl_Apellido.
+		/// Control Lkb_azul.
 		/// </summary>
 		/// <remarks>
 		/// Campo generado automáticamente.
 		/// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.Label lbl_Apellido;
+		protected global::System.Web.UI.WebControls.LinkButton Lkb_azul;
 
 		/// <summary>
-		/// Control lbl_Zona.
+		/// Control Lkb_verde.
 		/// </summary>
 		/// <remarks>
 		/// Campo generado automáticamente.
 		/// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.Label lbl_Zona;
+		protected global::System.Web.UI.WebControls.LinkButton Lkb_verde;
 
 		/// <summary>
-		/// Control lbl_Temas.
+		/// Control Lbl_color.
 		/// </summary>
 		/// <remarks>
 		/// Campo generado automáticamente.
 		/// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.Label lbl_Temas;
+		protected global::System.Web.UI.WebControls.Label Lbl_color;
 	}
 }
