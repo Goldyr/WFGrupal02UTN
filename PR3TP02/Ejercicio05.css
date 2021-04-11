@@ -1,0 +1,12 @@
+﻿.centrar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.centrar-div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+        min-height: 130px;
+}
