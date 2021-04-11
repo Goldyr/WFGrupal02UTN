@@ -6,17 +6,13 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
-    <style type="text/css">
-        .auto-style1 {
-            font-family: 'Times New Roman';
-            font-size: x-large;
-        }
-    </style>
+    <link href="Ejercicio04.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-    <form id="form1" runat="server">
-        <div class="auto-style1">
-            <strong>Bienvenido a mi página sr./a Claudio</strong></div>
+    <form id="form1" runat="server" class="supercentrado">
+        <div class="centrado">
+            <p><strong>Bienvenido a mi página sr./a Claudio</strong></p>
+        </div>
     </form>
 </body>
 </html>

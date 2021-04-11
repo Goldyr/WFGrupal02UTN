@@ -14,17 +14,15 @@
             
             align-items:center;
         }
-        .supercentrado {
-            justify-content:center;
-            vertical-align:middle;
-        }
+  
     </style>
+  <link href="Ejercicio04.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-    <form id="form1" runat="server">
-        <div class="auto-style1">
-            <strong>USUARIO INVALIDO INGRESO NO PERMITIDO</strong>
-            </div>
+    <form id="form1" runat="server" class="supercentrado">
+        <div>
+            <p><strong>USUARIO INVALIDO INGRESO NO PERMITIDO</strong></p>
+         </div>
     </form>
 </body>
 </html>

@@ -14,7 +14,7 @@ namespace WebApplication1
             //Llamo variables del formulario anterior para llenar las labels
             lbl_Nombre.Text = Request["txtbox_Nombre"];
             lbl_Apellido.Text = Request["txtbox_Apellido"];
-            lbl_Zona.Text = ((DropDownList)PreviousPage.FindControl("DropDownList1")).SelectedValue;
+            lbl_Zona.Text = ((DropDownList)PreviousPage.FindControl("DropDownList1")).SelectedValue.ToUpper();
             CheckBoxList auxCheckBox = ((CheckBoxList)PreviousPage.FindControl("checkbox_Temas"));
             //Para los temas voy a crear una lista con las etiquetas ul y li
             lbl_Temas.Text = "<ul>";

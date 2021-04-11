@@ -70,10 +70,12 @@
     <Content Include="Ejercicio02a.aspx" />
     <Content Include="Ejercicio02b.aspx" />
     <Content Include="Ejercicio02b.css" />
+    <Content Include="Ejercicio03.css" />
     <Content Include="Ejercicio04b.aspx" />
     <Content Include="Ejercicio04c.aspx" />
     <Content Include="Ejercicio05.aspx" />
     <Content Include="Ejercicio05.css" />
+    <Content Include="Ejercicio04.css" />
     <Content Include="Web.config" />
     <Content Include="Ejercicio01.aspx" />
     <Content Include="Ejercicio03.aspx" />

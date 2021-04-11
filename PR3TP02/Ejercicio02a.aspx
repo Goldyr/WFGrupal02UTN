@@ -18,7 +18,7 @@
      <header>
         <h1>Ejercicio 02 / 05</h1>
     </header>
-    <form id="form1" runat="server" class="centrado">
+    <form id="form1" runat="server" class="centerForm">
             <div style="height: 130px">
                 Nombre:&nbsp;&nbsp;&nbsp;
                 <asp:TextBox ID="txtbox_Nombre" runat="server"></asp:TextBox>

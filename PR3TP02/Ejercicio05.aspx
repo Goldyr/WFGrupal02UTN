@@ -10,7 +10,8 @@
 </head>
 <body>
     <header>
-        <h1>Elija su configuracion</h1>
+        <h1>Ejercicio 05 / 05</h1>
+        <h2>Elija su configuracion</h2>
     </header>
     <section class="centrar">
          <form id="form1" runat="server">

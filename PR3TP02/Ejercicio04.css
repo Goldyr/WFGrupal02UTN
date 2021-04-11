@@ -1,0 +1,48 @@
+﻿.ingreso {
+    display: flex;
+    width: 300px;
+    height: 20px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.ingreso p {
+    margin: 0px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.boton-validar {
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+.boton-validar input {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+body {
+    margin: 0px;
+}
+
+.supercentrado {
+    font-style: italic;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.supercentrado {
+    justify-content: center;
+    vertical-align: middle;
+}
