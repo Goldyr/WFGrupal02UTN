@@ -27,9 +27,9 @@
         <div class="centrar-div">
             <h3>Seleccione Accesorios</h3>
             <asp:CheckBoxList ID="cbl_Accesorios" runat="server" Height="34px" Width="330px">
-             <asp:ListItem Value="2000,50">Monitor LCD</asp:ListItem>
-             <asp:ListItem Value="550,50">HD 500GB</asp:ListItem>
-             <asp:ListItem Value="1200">Grabador DVD</asp:ListItem>
+             <asp:ListItem>Monitor LCD</asp:ListItem>
+             <asp:ListItem>HD 500GB</asp:ListItem>
+             <asp:ListItem>Grabador DVD</asp:ListItem>
             </asp:CheckBoxList>
         </div>
         <div class="centrar-div">

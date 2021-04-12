@@ -16,40 +16,56 @@ namespace PR3TP02
 
         protected void btnTabla_Click(object sender, EventArgs e)
         {
+            
+
             // Manejo de excepciones! 
 
-            try
-            {
-                String Tabla;
-                int Producto1, Producto2;
-                Producto1 = int.Parse(txtCantidad1.Text);
-                Producto2 = int.Parse(txtCantidad2.Text);
-                Tabla = "<table border='1'>";
+            lblMensajeError.Text = "";
+            lblTabla.Text = "";
 
-                Tabla += "<tr> <td>Producto</td> <td>Cantidad</td> </tr>";
-                Tabla += "<tr> <td> " + txtProducto1.Text + " </td> <td>" + txtCantidad1.Text + "</td> </tr>";
-                Tabla += "<tr> <td> " + txtProducto2.Text + " </td> <td>" + txtCantidad2.Text + "</td> </tr>";
-                Tabla += "<tr> <td> TOTAL </td> <td>" + (Producto1 + Producto2) + "</td> </tr>";
-                Tabla += "</Table>";
+            if (txtProducto1.Text.Trim() == "" || txtProducto2.Text.Trim()== "")
+            {
+                lblMensajeError.Text = $"No se acepta nombres de Productos en blanco";
+            }
+            else {
+                try
+                {
+                    String Tabla;
+                    int Producto1, Producto2;
+                    Producto1 = int.Parse(txtCantidad1.Text);
+                    Producto2 = int.Parse(txtCantidad2.Text);
 
-                lblTabla.Text = Tabla;
+                    if (Producto1 < 0) { Producto1 *= -1; }
+                    if (Producto2 < 0) { Producto2 *= -1; }
+
+                    Tabla = "<table border='1'>";
+
+                    Tabla += "<tr> <td>Producto</td> <td>Cantidad</td> </tr>";
+                    Tabla += "<tr> <td> " + txtProducto1.Text + " </td> <td>" + Producto1 + "</td> </tr>";
+                    Tabla += "<tr> <td> " + txtProducto2.Text + " </td> <td>" + Producto2 + "</td> </tr>";
+                    Tabla += "<tr> <td> TOTAL </td> <td>" + (Producto1 + Producto2) + "</td> </tr>";
+                    Tabla += "</Table>";
+
+                    lblTabla.Text = Tabla;
+
+                }
+                catch (FormatException) // Excepcion que se produce al intentar pasar un string a int
+                {
+                    lblMensajeError.Text = $"Ingrese un número válido en las cantidades";
+                    
+                }
+                catch (OverflowException)// Excepcion que se produce al cargar un numero muy grande
+                {
+                    lblMensajeError.Text = $"El número ingresado es muy grande";
+                    
+                }
             }
-            catch (FormatException) // Excepcion que se produce al intentar pasar un string a int
-            {
-                lblMensajeError.Text = $"Ingrese un número válido en las cantidades";
-                txtCantidad1.Text = "";
-                txtCantidad2.Text = "";
-                txtProducto1.Text = "";
-                txtProducto2.Text = "";
-            }
-            catch (OverflowException)// Excepcion que se produce al cargar un numero muy grande
-            {
-                lblMensajeError.Text = $"El número ingresado es muy grande";
-                txtCantidad1.Text = "";
-                txtCantidad2.Text = "";
-                txtProducto1.Text = "";
-                txtProducto2.Text = "";
-            }
+            txtCantidad1.Text = "";
+            txtCantidad2.Text = "";
+            txtProducto1.Text = "";
+            txtProducto2.Text = "";
+
+
         }
     }
 }

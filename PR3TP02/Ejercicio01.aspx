@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <h1>&nbsp;Ejercicio 01 / 03</h1>
+        <h1>&nbsp;Ejercicio 01 / 05</h1>
 
     </header>
     <form id="form1" runat="server">
@@ -17,12 +17,12 @@
             Ingrese nombre producto:&nbsp;
             <asp:TextBox ID="txtProducto1" runat="server" MaxLength="25" Width="169px"></asp:TextBox>
 &nbsp;Cantidad:
-            <asp:TextBox ID="txtCantidad1" runat="server" MaxLength="3"></asp:TextBox>
+            <asp:TextBox ID="txtCantidad1" runat="server" MaxLength="4"></asp:TextBox>
             <br />
             <br />
             Ingrese nombre producto:&nbsp; <asp:TextBox ID="txtProducto2" runat="server" MaxLength="25" Width="169px"></asp:TextBox>
 &nbsp;Cantidad:
-            <asp:TextBox ID="txtCantidad2" runat="server" MaxLength="3"></asp:TextBox>
+            <asp:TextBox ID="txtCantidad2" runat="server" MaxLength="4"></asp:TextBox>
             <br />
 &nbsp;&nbsp;
             <br />
