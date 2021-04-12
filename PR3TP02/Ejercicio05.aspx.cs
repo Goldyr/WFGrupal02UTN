@@ -13,8 +13,8 @@ namespace PR3TP02
         {
             if(IsPostBack == false)
             {
-                cbl_Accesorios.Items[0].Value = "2000.50";
-                cbl_Accesorios.Items[1].Value = "550.50";
+                cbl_Accesorios.Items[0].Value = $"{2000.50}";
+                cbl_Accesorios.Items[1].Value = $"{550.50}";
                 cbl_Accesorios.Items[2].Value = "1200";
             }
         }
